@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="db_App">
+	<head>
+		<title>Database</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+	<h1>Updating Main View</h1>
+	<div class="container">
+	<!--this controller sets up the view-->
+		<div ng-controller="mainController">
+	<!-- telling the view you're building an SAP -->
+			<div ng-view>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script type="text/javascript" src="https://code.angularjs.org/1.4.9/angular-route.min.js">
+	</script>
+	<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
